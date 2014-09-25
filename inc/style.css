@@ -1,0 +1,487 @@
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+ u, center,
+dl, dt, dd, ol,
+ form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	-webkit-font-smoothing:antialiased;
+	line-height: 1;
+	color:silver;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+
+/*--------------END FORMAT RESET-------------------------------------------------*/
+
+/*
+CSS for el jardin de elias 2
+*/
+
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;   
+	font-family: arial;
+	background: white;
+	text-align:center;
+	line-height: 130%;
+}
+
+body a:link {
+color: blue;
+}
+
+body a:visited{
+color: purple;
+}
+
+body a:hover {
+color: green;
+}
+
+h2 {
+	color:black;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+	margin:0 auto;  
+	text-align:left;
+	
+}
+
+#header {
+	position: relative;
+	overflow: hidden;
+	height:45px;
+	border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: gray;
+    
+    background: white; 
+    padding: .3em;
+}
+
+#headercontent {
+	position: relative;
+	overflow: hidden;
+	max-width:960px;
+	margin: 0 auto;
+	
+}
+
+#sitename {
+	float:left;
+	
+}
+
+#sitename a {
+	
+    font-size: 30px;
+    font-weight: none;
+    color:#FF00FF;
+    font-family: times, helvetica;
+}
+
+#tagline {	
+	clear:both;
+    font-style: italic;
+
+    font-family:helvetica;
+    color:gray;
+    float:left;
+}
+
+#searchbar 
+{
+	position: absolute;
+	bottom: 30px;
+	right: 3px;
+}
+
+#headerbar
+{
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+}
+
+#headerbar a, a:link {
+    text-decoration: none;
+    color:#7A7AFF;
+}
+
+#headerbar a:hover {
+    text-decoration: none;
+    color:aqua;
+}
+
+#bodycontent {
+	position: relative;
+	overflow: hidden;
+	max-width:960px;
+	min-height: 640px;
+	margin: 0 auto;
+
+}
+
+#sidebar {
+
+    width: 155px;
+	float:left;
+	background-color: #ffffff;
+    border-right-width: 1px;
+    border-right-style: dashed;
+    border-right-color: gray; 
+    font-size: 14px;
+    line-height: 100%;
+    padding:5px;
+
+
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: gray;
+}
+
+#sidebar a:hover {
+    text-decoration: none;
+    color:silver;
+}
+
+#listingsarea {
+	margin-left:175px;
+	margin-top:10px;
+	font-size:15px;
+	color:gray;
+	overflow: hidden;
+}
+
+#listingelement {
+	font-size:16px;
+	margin-bottom:6px;
+}
+
+#searchlistingsarea {
+	margin-top:10px;
+	font-size:15px;
+	color:gray;
+	overflow: hidden;
+}
+
+#searchlistingsarea a {
+}
+
+#searchlistingsarea a:hover {
+}
+
+#searchcount {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+#indlistingarea {
+	margin-top:10px;
+}
+
+#addlistingbutton {
+	text-align:center;
+	border:1px solid;
+	border-radius:5px;
+	background-color:#BDFFF3;
+	font-weight:bold;
+	color:#44B39E;
+	display: block;
+	width: 150px;
+	float:right;
+	margin:5px;
+	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20px;   
+
+}
+
+#addlistingbutton a {
+color:#44B39E;	display:block;
+}
+
+#addlistingbutton a:visited {
+color:#44B39E;	display:block;
+}
+
+#addlistingbutton a:hover {
+	color:green;
+}
+
+#footer {
+
+	margin: 0;
+	padding: .5em;
+	color: #888888 	  ;
+	background-color: #ffffff;
+    font-size:11px;
+	overflow: hidden;
+	bottom:0;
+	text-align:center;
+}
+
+#footercontent {
+
+}
+
+#lform {
+	margin-left: auto ;
+  	margin-right: auto ;
+  	width: 536px;
+  	color:black;
+}
+
+#editform {
+  	width: 536px;
+  	color:black;
+}
+
+#passwordform {
+	margin-left: auto ;
+  	margin-right: auto ;
+  	color:black;
+}
+
+#formfield{
+	background-color:white;
+}
+
+#contactfield{
+	width:10px;
+}
+
+#formnote {
+	color:#345AC5;
+	background-color:#DBECFF;
+	border-width:1px;
+	border-color:##9FC7F5;
+	border-style:solid;
+	margin-top: 10px;
+  	margin-bottom: 5px;
+	padding:5px;
+}
+
+#processerror
+{
+	padding-top:10px;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	margin-top: 10px;
+  	margin-bottom: 15px;
+	color:red;
+	background-color:#FEF0F0;
+	border-width:1px;
+	border-color:#FF9185;
+	border-style:solid;
+	
+	margin-bottom:5px;
+	padding:5px;
+	width: 536px;
+}
+
+#processsuccess
+{
+	padding-top:10px;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	margin-top: 10px;
+  	margin-bottom: 15px;
+	color:green;
+	background-color:#E9FFE6;
+	border-width:1px;
+	border-color:#9EF886;
+	border-style:solid;
+	margin-bottom:5px;
+	padding:5px;
+	width: 536px;
+}
+
+.listbutton {
+
+}
+
+.sidebuttoncat1 {
+	font-weight: bold;
+}
+
+.sidebuttoncat2 {
+	margin-left:10px;
+
+}
+
+.dateelement {
+
+	color:gray;
+	font-size: 15px;
+	
+}
+
+.lm {
+	font-size:15px;
+	margin-bottom:6px;
+
+}
+
+.lm v {
+	color: purple;
+}
+
+.lm a {
+	color: blue;
+}
+
+.listingsubtitle {
+	font-size:13px;
+	color:silver;
+	font-weight: normal;
+}
+
+.listinglocation {
+	font-size:13px;
+	color:silver;
+	font-weight: normal;
+}
+
+.listinglocation a:link{
+	color:gray;
+	font-weight: normal;
+}
+
+.listinglocation a:visited{
+	color: gray;
+	font-weight: normal;
+}
+
+.listinglocation a:hover{
+	color: silver;
+	font-weight: normal;
+}
+
+#listingnav {
+	padding-top:15px;
+	padding-bottom: 
+
+}
+
+#listingnav a {
+	text-decoration: none;
+    color: blue;   
+}
+
+#listingnav a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+#listingnav a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.listingdescription {
+	background-color:white;
+	color:black;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.buttonholder{ text-align: center; }
+
+label {display:block;}
+textarea { display:block; }
+
+.numbercount
+{
+	font-size: 12px;
+	font-style: italic;
+}
+
+.options
+{
+	font-size: 13px;
+}
+
+.options a {
+}
+
+.options a:hover {
+}
+
+.optionsS
+{
+   	background-color:cyan;
+	font-size: 13px;
+}
+
+.optionsS a {
+	text-decoration: none;
+    color: blue;   
+}
+
+.optionsS a:hover {
+    text-decoration: none;
+    color: #B8B8FF;
+}
+
+#address
+{
+	display: none;
+}
+
+
+
+
+
+
