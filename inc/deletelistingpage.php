@@ -4,7 +4,7 @@
     class DeleteListingPage extends Page 
     {
        	public function DisplayBody()
-		{
+	{
 			$db = $this->ConnectToDatabase();
 			$listingId = $_GET["l"];
 			$passwordProvided = $_POST["password"];
